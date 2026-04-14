@@ -43,7 +43,137 @@
         property="twitter:image:alt">
 
     <!-- Styles -->
-    <link href="./files/styles.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+          margin: 0;
+          background-color: #ffffff;
+          color: #333333;
+        }
+        img {
+          max-width: 100%;
+          vertical-align: middle;
+          display: inline-block;
+        }
+
+        .container {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 700px;
+        }
+
+        .paragraph {
+          margin-bottom: 24px;
+          padding-right: 8px;
+          padding-left: 8px;
+          font-family: 'Droid Serif', serif;
+          font-size: 18px;
+          line-height: 32px;
+          text-transform: none;
+          white-space: normal;
+        }
+
+        .paragraph.signoff {
+          margin-bottom: 0px;
+          text-align: left;
+        }
+
+        .heading {
+          font-size: 32px;
+          margin-top: 64px;
+          margin-bottom: 24px;
+          padding-right: 8px;
+          padding-left: 8px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+        }
+
+        .heading-2 {
+          font-size: 24px;
+          margin-bottom: 24px;
+          padding-right: 8px;
+          padding-left: 8px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+        }
+
+        .list-item {
+          margin-bottom: 0px;
+          font-family: 'Droid Serif', serif;
+          font-size: 18px;
+          line-height: 32px;
+          list-style-type: disc;
+        }
+
+        .image {
+          margin-bottom: 32px;
+        }
+
+        .youtube {
+          display: inline-block;
+          margin-bottom: 32px;
+          position: relative;
+          width: 100%;
+          height: 0;
+          padding-bottom: 56.25%;
+        }
+
+        .video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        .listhead {
+          margin-bottom: 0px;
+          padding-right: 8px;
+          padding-left: 8px;
+          font-family: 'Droid Serif', serif;
+          font-size: 18px;
+          line-height: 32px;
+        }
+
+        .list {
+          margin-bottom: 24px;
+        }
+
+        .div-block {
+          min-height: 100px;
+        }
+
+        .link {
+          color: #000;
+          cursor: pointer;
+        }
+
+        .notice-p {
+          margin: 0 0 16px 0;
+          font-family: 'Droid Serif', serif;
+          font-size: 18px;
+          line-height: 32px;
+        }
+        .notice-heading {
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 1.3;
+        }
+        .notice-p:last-child {
+          margin-bottom: 0;
+        }
+
+        .notice-bar {
+          background-color: #f7f7f7;
+          border: 1px solid #dddddd;
+          border-radius: 8px;
+          padding: 16px;
+          margin-top: 32px;
+          margin-bottom: 8px;
+          margin-left: 8px;
+          margin-right: 8px;
+        }
+    </style>
     <script src="./files/webfont.js" type="text/javascript"></script>
     <script
         type="text/javascript">WebFont.load({ google: { families: ["Droid Serif:400,400italic,700,700italic", "Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic", "Nunito Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic"] } });</script>
@@ -52,6 +182,18 @@
 
 <body>
     <div class="container">
+    <div class="notice-bar">
+        <p class="notice-p notice-heading">It's April 2026. Where'd BeepLab go?</p>
+        <p class="notice-p">It was January, and I was ready to FoLLoW mY pAsSioN. I gave notice at my job, with plenty of warning, out of respect for an upcoming deadline. I'd leave after, in mid-March. I dreamt of a summer of building music gear and testing prototypes. Jamming, with people! Collaborating, networking, talking, with people. That was... March 2020.</p>
+        <p class="notice-p">As the world reconfigured around a pandemic, I took the plunge anyway. I could still build at home. And I did: I made a couple prototypes, finalized a bill of materials, and designed for injection molding. I made a website, put pics on instagram, started a Substack. Everything was walking nicely towards a crowdfunding campaign to deliver a fun little gadget to the world.</p>
+        <p class="notice-p">And then: everyone and their whole family bought a monitor for work-from-home, the Suez Canal wasn't eating enough fiber, and the lead time for microcontroller chips went from days to years. I was disappointed, and I moved on.</p>
+        <p class="notice-p">I was already working with an outdated design; a collaborator had said in a design review "friends don't let friends use 8-bit microcontrollers in 2020." I knew the design would need a little work, but by the time I could actually ship it, the design would need a lot of work. For a long time, there was too much supply chain uncertainty to even spec out an updated design.</p>
+        <p class="notice-p">Now, six years later, I've decided to intentionally archive this version of the idea. It may come back in another form. I envision a bit more off-the-shelf, a bit more open-source, a bit less productized and a bit more experimental. The fun of imagining building the BeepLab was imagining the fun I'd have with you - the people who would play it, build with it, and build on top of it.</p>
+        <p class="notice-p">I hope I still get to do that, and I want to send you a truly heartfelt thanks for your interest. The attention and interest you gave me and this project really mattered to me.</p>
+        <p class="notice-p">much love,</p>
+        <p class="notice-p">Alan</p>
+        <p class="notice-p">The site below is from the original launch in 2020.</p>
+    </div>
         <h1 class="heading">Meet the BeepLab One</h1>
         <p class="paragraph">Hey friend,</p>
         <p class="paragraph">For years now, I've been dreaming of a seriously fun music gadget, and it's finally time to
